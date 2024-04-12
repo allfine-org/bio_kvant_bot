@@ -14,7 +14,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.DEBUG, filename="bot.log",filemode="a")
 # Объект бота
-bot = Bot(token="7008502380:AAFwgBV9YO5fQbCNfu3PK0wPUJdSSYH3jWw")
+bot = Bot(token="...")
 # Диспетчер
 dp = Dispatcher()
 score = 0
